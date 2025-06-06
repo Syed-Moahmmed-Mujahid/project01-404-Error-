@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(120deg, #f8fafc 0%, #dbeafe 100%);
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: center;
+  padding: 40px 30px;
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  max-width: 350px;
+}
+.big-404 {
+  font-size: 6em;
+  font-weight: bold;
+  color: #f63b3b;
+  letter-spacing: 4px;
+  margin-bottom: 0.2em;
+  animation: bounce 1.5s infinite alternate;
+}
+@keyframes bounce {
+  0% { transform: translateY(0);}
+  100% { transform: translateY(-16px);}
+}
+.message {
+  font-size: 1.3em;
+  color: #334155;
+  margin-bottom: 1.5em;
+}
+.home-link {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #3b82f6;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+.home-link:hover {
+  background: #2563eb;
+}
+.sad-face {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: #f59e42;
+  animation: shake 1s infinite alternate;
+  display: inline-block;
+}
+@keyframes shake {
+  0% { transform: rotate(-8deg);}
+  100% { transform: rotate(8deg);}
+}
+.note {
+  margin-top: 24px;
+  color: #64748b;
+  font-size: 0.95em;
+  font-style: italic;
+}
